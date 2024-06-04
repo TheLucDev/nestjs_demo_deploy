@@ -1,0 +1,48 @@
+/// <reference types="node" />
+import { TblPhongban } from './TblPhongban.entity';
+export declare class TblDmnhanvien {
+    sott: number;
+    manv: string;
+    mahoso: string;
+    holot: string;
+    ten: string;
+    bidanh: string | null;
+    ngaysinh: Date;
+    noisinh: string | null;
+    quequan: string | null;
+    gioitinh: string;
+    idtrinhdo: number | null;
+    idngoaingu: string | null;
+    idtinhoc: string | null;
+    idchuyenmon: string | null;
+    idhocvi: string | null;
+    idchucvu: number | null;
+    iddantoc: number | null;
+    idtongiao: number | null;
+    socmnd: string | null;
+    ngaycap: Date | null;
+    noicap: string | null;
+    sobhxh: string | null;
+    masothue: string | null;
+    diachi: string | null;
+    dienthoai: string | null;
+    email: string | null;
+    sotruong: string | null;
+    bangcapkhac: string | null;
+    chungchikhac: string | null;
+    uudiem: string | null;
+    khuyetdiem: string | null;
+    diachilienhe: string | null;
+    kinhnghiem: string | null;
+    ngayluuhs: Date | null;
+    lydoluuhs: string | null;
+    trangthai: number;
+    ngaynhap: Date | null;
+    nguoinhap: string | null;
+    ngaysua: Date | null;
+    nguoisua: string | null;
+    iddonvi: string | null;
+    avatar: Buffer | null;
+    hoten: string;
+    maphong: TblPhongban;
+}

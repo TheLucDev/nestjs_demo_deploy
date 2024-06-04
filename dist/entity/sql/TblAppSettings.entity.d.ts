@@ -1,0 +1,30 @@
+export declare class TblAppSettings {
+    idInformation: boolean;
+    madonvi: string | null;
+    noiNopHoSo: string | null;
+    hoSoTuyenDungBaoGom: string | null;
+    ghiChuTuyenDung: string | null;
+    quyenLoiTuyenDung: string | null;
+    emailDefault: string | null;
+    passwordDefault: string | null;
+    smtpServer: string | null;
+    smtpPort: number | null;
+    enableSsl: boolean | null;
+    smtpUseDefaultCredentials: boolean | null;
+    emailUser: string | null;
+    emailPassword: string | null;
+    maTinh: string | null;
+    maHuyen: string | null;
+    maXa: string | null;
+    tongdanso: number | null;
+    tyleNam: number | null;
+    dansoNam: number | null;
+    tyleNu: number | null;
+    dansoNu: number | null;
+    tyleTt: number | null;
+    thanhthi: number | null;
+    tyleNt: number | null;
+    nongthon: number | null;
+    tyleLd: number | null;
+    dansoLd: number | null;
+}

@@ -1,0 +1,34 @@
+import { TblM27Bangke } from './TblM27Bangke.entity';
+export declare class TblM27Chitiet {
+    idtv: string;
+    iduv: string | null;
+    idm27: number;
+    ngay: Date;
+    hoten: string;
+    idQuanhe: number;
+    idGioitinh: number;
+    ngaysinh: Date;
+    idDantoc: number;
+    idGdpt: number | null;
+    idTdHocvan: number | null;
+    idBachoc: string | null;
+    idchuyenmon: number | null;
+    congviecdanglam: string | null;
+    tencoquan: string | null;
+    idNkt: string | null;
+    idLamconganluong: number | null;
+    idLoaihinhDn: string | null;
+    idLoaithatnghiep: number | null;
+    idTGthatnghiep: number | null;
+    chkKhongthamgia: boolean;
+    nguyennhan: string | null;
+    ghichu: string | null;
+    displayOrder: number;
+    createdDate: Date;
+    createdBy: string;
+    modifiredDate: Date;
+    modifiredBy: string;
+    idBiendong: number | null;
+    status: boolean;
+    idMaho: TblM27Bangke;
+}

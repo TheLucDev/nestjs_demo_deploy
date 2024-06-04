@@ -1,0 +1,34 @@
+export declare class TbNhatuyendung {
+    id: number;
+    ntdId: string;
+    username: string | null;
+    password: string | null;
+    ntdTentat: string | null;
+    ntdTen: string | null;
+    ntdHinhthucdoanhnghiep: number | null;
+    ntdSolaodong: number | null;
+    ntdGioithieu: string | null;
+    ntdThuockhucongnghiep: string | null;
+    ntdDiachithanhpho: number | null;
+    ntdDiachixaphuong: number | null;
+    ntdDiachichitiet: string | null;
+    ntdNguoilienhe: string | null;
+    ntdChucvu: string | null;
+    ntdDienthoai: string | null;
+    ntdFax: string | null;
+    ntdEmail: string | null;
+    ntdWebsite: string | null;
+    ntdNgaydangky: string | null;
+    ntdDuyet: boolean | null;
+    ntdTopblock: boolean | null;
+    ntdLogo: string | null;
+    ntdQuocgia: string | null;
+    ntdNamthanhlap: number | null;
+    ntdLinhvuchoatdong: string | null;
+    ntdhtNlh: boolean | null;
+    ntdhtTelephone: boolean | null;
+    ntdhtWeb: boolean | null;
+    ntdhtFax: boolean | null;
+    ntdhtEmail: boolean | null;
+    ntdhtAddress: boolean | null;
+}

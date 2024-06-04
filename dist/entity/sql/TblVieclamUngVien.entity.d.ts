@@ -1,0 +1,30 @@
+import { TblHoSoUngVien } from './TblHoSoUngVien.entity';
+export declare class TblVieclamUngVien {
+    idVl: string;
+    maphieu: string;
+    ngaylap: Date;
+    idNguoiduyet: string;
+    maCv: string | null;
+    masoLd: string | null;
+    idLoaiDn: number;
+    idTinh: string | null;
+    idhuyen: string | null;
+    idxa: string | null;
+    diachiLv: string | null;
+    idDn: string;
+    idKhuVuc: number;
+    idNkt: string | null;
+    idLoaiHd: number;
+    tencongviec: string | null;
+    matVl: boolean;
+    ngaymatVl: Date | null;
+    diengiai: string | null;
+    ghichu: string | null;
+    status: boolean;
+    displayOrder: number;
+    createdDate: Date;
+    createdBy: string;
+    modifiredDate: Date;
+    modifiredBy: string;
+    iduv: TblHoSoUngVien;
+}

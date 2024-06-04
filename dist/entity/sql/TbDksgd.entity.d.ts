@@ -1,0 +1,32 @@
+export declare class TbDksgd {
+    id: number;
+    dksgdId: string;
+    dksgdUsername: string | null;
+    dksgdEmail: string | null;
+    dksgdPassword: string | null;
+    dksgdTen: string | null;
+    dksgdTentat: string | null;
+    dksgdNguoilienhe: string | null;
+    dksgdWebsite: string | null;
+    dksgddmHinhthucdoanhnghiep: number | null;
+    dksgdSolaodong: number | null;
+    dksgdNganhnghekinhdoanh: string | null;
+    dksgdDienthoai: string | null;
+    dksgdFax: string | null;
+    dksgdDiachichitiet: string | null;
+    dksgddmPhiengiaodichlan: string | null;
+    dksgddmHinhthucthamgia: string | null;
+    dksgdNganhnghe: string | null;
+    dksgdGhichu: string | null;
+    dksgdNgaydangky: string | null;
+    dksgdSolanxem: number | null;
+    dksgdDuyet: boolean | null;
+    dksgdHienthi: boolean | null;
+    dksgdhtNlh: boolean | null;
+    dksgdhtTelephone: boolean | null;
+    dksgdhtWeb: boolean | null;
+    dksgdhtFax: boolean | null;
+    dksgdhtEmail: boolean | null;
+    dksgdhtAddress: boolean | null;
+    dksgdhtName: boolean | null;
+}
